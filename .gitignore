@@ -1,0 +1,34 @@
+# --- ADNI / patient data: NEVER commit (Data Use Agreement) ---
+*ADNI*.csv
+ADNI_POMDP_*.csv
+*.rda
+*.rds
+pomdp_data.*
+
+# --- Large local toolchains / binaries ---
+julia-*/
+*.exe
+tectonic*
+
+# --- Julia ---
+*.cov
+deps/deps.jl
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc

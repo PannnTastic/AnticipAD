@@ -1,0 +1,1 @@
+{"accuracy":78.1,"avg_reward":68.14,"cn_acc":80.5,"dem_acc":67.8,"eval_time_sec":7.89,"max_steps":20,"mci_acc":80.9,"n_samples":100000,"reward_std":122.95,"seed":42,"solver":"SARSOP","steps":2.48,"test_cost":-29.67,"train_time_sec":301.01}

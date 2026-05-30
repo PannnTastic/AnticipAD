@@ -1,0 +1,20 @@
+{
+  "ExactDiscrete alpha=1": {
+    "accuracy": 76.0,
+    "avg_reward": 66.34,
+    "avg_steps": 2.46,
+    "avg_tests": 1.46
+  },
+  "TemperedDiscrete alpha=0.5": {
+    "accuracy": 53.2,
+    "avg_reward": 56.08,
+    "avg_steps": 2.18,
+    "avg_tests": 1.18
+  },
+  "TemperedDiscrete alpha=0.75": {
+    "accuracy": 50.6,
+    "avg_reward": 55.67,
+    "avg_steps": 2.0,
+    "avg_tests": 1.0
+  }
+}
