@@ -19,9 +19,9 @@ julia --project=. -e "using Pkg; Pkg.instantiate()"
 
 Source: ADNI via the **ADNIMERGE2** R data package (v0.1.1, ATRI Biostatistics, built 2025-12-17; https://atri-biostats.github.io/ADNIMERGE2), accessed under ADNI's Data Use Agreement (https://adni.loni.usc.edu). Per ADNI terms, processed data are **not redistributed** here — obtain your own ADNI access and regenerate the analytic table with the preprocessing notebook (see below).
 
-- Retained analytic table: 15,836 visit records / 3,777 unique RIDs.
+- Retained analytic table: 15,836 visit records / 3,777 unique RIDs (no imputation; listwise deletion of rows missing DX or MMSE → 12,464 rows for the prior/transition estimates).
 - Initial belief b₀ = [0.385, 0.417, 0.198] estimated on the 12,464 records (3,713 participants) with complete diagnosis + MMSE.
-- **Transition matrix and MMSE likelihoods** were derived in a separate preprocessing pipeline over raw ADNIMERGE2 (notebook: `notebooks/preprocessing.ipynb` — ADD THIS). CDR and APOE4 likelihoods reproduce directly from observed (non-imputed) diagnosis-conditional frequencies.
+- **Hybrid provenance (important):** the transition matrix, APOE4 likelihoods, and b₀ are ADNI-derived (transitions reproduce from `preprocessing/Pra_pemrosesan_Dataset_POMDP.ipynb`; APOE4 matches the CSV to 3 decimals). The **MMSE and CDR observation likelihoods and the reward function are hand-specified clinical models**, not extracted by frequency counting — raw ADNI MMSE/CDR are near-deterministic and would induce degenerate over-testing (see `test_raw_mmse.jl`). Code comments in the Python prototype mark this design intent.
 
 ## Core model
 
@@ -51,8 +51,8 @@ Seeds `{42, 123, 456, 789, 1000, 2024, 314, 271, 100, 999}`; γ=0.95; horizon 20
 
 Under the adopted (smoothed-MMSE) observation model, MyopicPOMDP matches SARSOP's reward with no offline training. This parity is **conditional**: under raw observed-ADNI MMSE the myopic planner over-tests (~10 visits) and accuracy falls to ~40%, while SARSOP stays at ~78% (`rerun_rawmmse_benchmark.jl`). MyopicPOMDP is therefore competitive at realistic operating points; SARSOP is the robust choice.
 
-## Before pushing — TODO
-- [ ] Add `notebooks/preprocessing.ipynb` (the Colab pipeline that produced the transition matrix + MMSE likelihoods from raw ADNIMERGE2)
-- [ ] Add `LICENSE` (MIT recommended)
-- [ ] Confirm `Project.toml` / `Manifest.toml` are committed
+## Repository status
+- [x] Preprocessing notebook included (`preprocessing/Pra_pemrosesan_Dataset_POMDP.ipynb`) + R extraction scripts
+- [x] `Project.toml` / `Manifest.toml` committed (exact Julia env)
 - [x] `stats_paired.jl` (canonical, full-Julia) + `stats_paired.py` (reference) — both verified to reproduce the reported significance numbers
+- [ ] LICENSE intentionally omitted for now (repo defaults to all-rights-reserved until added)
