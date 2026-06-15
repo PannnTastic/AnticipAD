@@ -1,6 +1,6 @@
 # AnticipAD — POMDP Simulation for Alzheimer Staging
 
-Reproduction code for *"A POMDP-Based Simulation to Anticipate Cognitive Decline in Alzheimer's Disease Using Epidemiological Data."*
+Reproduction code for *"A POMDP-Based Framework for Healthcare Decision-Making to Mitigate Cognitive Decline in Alzheimer’s Disease"*
 
 This is a **simulation benchmark**, not a validated clinical tool. All accuracy figures are in-sample (ADNI-derived simulator); external validation (NACC/OASIS) is future work.
 
