@@ -5,6 +5,16 @@ ADNI_POMDP_*.csv
 *.rds
 pomdp_data.*
 
+# --- Manuscripts: repository contains reproduction code and figures only ---
+/paper/
+/paper_v2/
+/manuscripts/
+**/main*.tex
+**/main*.pdf
+**/references.bib
+**/IEEEtran.cls
+**/IEEEtran.bst
+
 # --- Large local toolchains / binaries ---
 julia-*/
 *.exe
@@ -14,7 +24,7 @@ tectonic*
 *.cov
 deps/deps.jl
 
-# --- LaTeX build artifacts ---
+# --- LaTeX build artifacts (standalone figure sources/PDFs remain allowed) ---
 *.aux
 *.log
 *.bbl

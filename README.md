@@ -31,7 +31,7 @@ The evaluation cap `H=20` was chosen from the maximum visit count per participan
 
 If all 20 decisions are non-terminal tests, the evaluator appends a fallback `Wait`, so the recorded action count can reach 21. This cap is not SARSOP's planning horizon or a clinically optimized follow-up duration. Horizon sensitivity has not been established.
 
-The read-only PowerShell audit in `paper_v2/overleaf_submission/audit_visit_horizon.ps1` accepts an explicit `-Dataset` path. Its committed output contains aggregate counts and a dataset hash, not patient records.
+The read-only PowerShell audit in `reproducibility/audits/audit_visit_horizon.ps1` accepts an explicit `-Dataset` path. Its committed output contains aggregate counts and a dataset hash, not patient records.
 
 ## Core Model
 
@@ -47,7 +47,7 @@ Run the Julia commands below from `julia_alzheimer_pomdp/` with `julia --project
 |---|---|---|
 | Individual 100,000-episode benchmarks | `solver_sarsop.jl`, `solver_myopic.jl`, `solver_expert.jl`, `solver_random.jl`, then `combine_results.jl` | `results_*_100000.json`, `combined_results_100000.json` |
 | Ten-seed benchmark used for revised Table II | `run_multiseed_perseed.jl` | `per_seed_results.json` |
-| Mean, sample SD, and macro-accuracy audit | `../paper_v2/overleaf_submission/audit_metrics.jl` | `camera_ready_metrics.json` beside the audit script |
+| Mean, sample SD, and macro-accuracy audit | `../reproducibility/audits/audit_metrics.jl` | `camera_ready_metrics.json` beside the audit script |
 | Paired Wilcoxon, bootstrap interval, Cliff's delta, Holm correction | `stats_paired.jl` | Console; `stats_paired.py` is an optional reference implementation |
 | Threshold-tuned Expert baseline | `tune_expert.jl` | Console |
 | SARSOP belief-region extraction | `extract_sarsop_policy.jl` | `sarsop_policy_grid.json` |
@@ -75,16 +75,16 @@ Values are means and sample standard deviations over ten seeds. Overall accuracy
 
 SARSOP has higher MCI agreement and lower testing expenditure among informed policies, while MyopicPOMDP has higher Dementia agreement and aggregate reward. SARSOP was planned on a continuing model, while evaluation terminates at commitment. Consequently, these rewards are not a matched-objective optimality comparison. Neither solver universally dominates, and sensitivity experiments can reverse rankings. The single-seed stress tests do not establish general robustness, clinical utility, or joint MMSE/CDR validity.
 
-## Revised Manuscript
+## Reproducibility Assets
 
-The current conference revision is [`paper_v2/overleaf_submission/main_review.pdf`](paper_v2/overleaf_submission/main_review.pdf), with LaTeX source, figure assets, and reproducibility audits in the same directory. It is seven A4 pages. This local PDF is **not yet PDF eXpress-certified**.
+The [reproducibility guide](reproducibility/README.md) documents numerical audits and standalone figure assets. `reproducibility/figures/` contains the figures and the illustrative trajectory figure source; `reproducibility/audits/` contains the audit code and aggregate outputs. Full manuscript PDFs, manuscript LaTeX, bibliography files, and conference templates are intentionally excluded from the current repository tree.
 
-The revision corrects accuracy definitions, documents the dataset-based horizon and visit-time abstraction, clarifies model limitations, and improves figure layout. It does not introduce new benchmark runs. Older experiment reports remain historical records and may contain superseded interpretations; use this README and the revised manuscript for current claims.
+The documentation corrects accuracy definitions, explains the dataset-based horizon and visit-time abstraction, and clarifies model limitations. This update does not introduce new benchmark runs. Older experiment reports remain historical records and may contain superseded interpretations; use this README for current claims.
 
 ## Repository Status
 
 - Preprocessing notebook and R extraction scripts are included; restricted patient data are not.
 - `Project.toml` and `Manifest.toml` record the Julia environment.
-- Numerical and visit-count audits accompany the revised manuscript.
+- Numerical and visit-count audits and standalone figures are provided for reproduction.
 - External validation, treatment-effect modeling, persistent genetic covariates, and decision-time evaluation remain future work.
-- A repository-wide license has not been added; no new redistribution rights are granted by this revision. Bundled IEEE template files retain their own notices.
+- A repository-wide license has not been added; no new redistribution rights are granted by this revision.
