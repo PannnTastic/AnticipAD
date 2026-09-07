@@ -1,0 +1,7020 @@
+{
+  "policy_sha256": "93b451ff88dad1a35c5c07b62daaa4087823d69fb09437a70e54ed7abd27b734",
+  "provenance": "Captured from the monolithic implementation before file extraction using the repository 3-state policy; simulation-only regression fixture",
+  "snapshot": {
+    "decisions": [
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 0,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 1,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 2,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 7,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 0,
+        "j": 10,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 7,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 1,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 7,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 2,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 6,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 3,
+        "j": 7,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 5,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 4,
+        "j": 6,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 5,
+        "j": 5,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 6,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 6,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 6,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 6,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 6,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 7,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 7,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 7,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 7,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 8,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 8,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 8,
+        "j": 2,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 9,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 9,
+        "j": 1,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "SARSOP",
+        "i": 10,
+        "j": 0,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 0,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 1,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 2,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 3,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 7,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 8,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 0,
+        "j": 10,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 0,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 7,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 1,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 6,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 7,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 2,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 6,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 3,
+        "j": 7,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 5,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 4,
+        "j": 6,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 5,
+        "j": 5,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 6,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 6,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 6,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 6,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 6,
+        "j": 4,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 7,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 7,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 7,
+        "j": 2,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 7,
+        "j": 3,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 8,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 8,
+        "j": 1,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 8,
+        "j": 2,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 9,
+        "j": 0,
+        "action": "A_Test_CDR"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 9,
+        "j": 1,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "i": 10,
+        "j": 0,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 0,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 1,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 6,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 7,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 0,
+        "j": 10,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 0,
+        "action": "A_Treat_Dementia"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 6,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 7,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 1,
+        "j": 9,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 6,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 7,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 2,
+        "j": 8,
+        "action": "A_Treat_MCI"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 6,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 3,
+        "j": 7,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 4,
+        "j": 6,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 5,
+        "j": 5,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 6,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 6,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 6,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 6,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 6,
+        "j": 4,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 7,
+        "j": 0,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 7,
+        "j": 1,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 7,
+        "j": 2,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 7,
+        "j": 3,
+        "action": "A_Test_MMSE"
+      },
+      {
+        "policy": "Expert",
+        "i": 8,
+        "j": 0,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 8,
+        "j": 1,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 8,
+        "j": 2,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 9,
+        "j": 0,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 9,
+        "j": 1,
+        "action": "A_Wait"
+      },
+      {
+        "policy": "Expert",
+        "i": 10,
+        "j": 0,
+        "action": "A_Wait"
+      }
+    ],
+    "episodes": [
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 200.16249999999997,
+          "correct": false,
+          "test_cost": -60.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -941.5,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 200.16249999999997,
+          "correct": false,
+          "test_cost": -60.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -941.5,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 122.5,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "SARSOP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -67.5,
+          "correct": false,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -84.125,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -48.025,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -84.125,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -48.025,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 231.75,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 170.15437499999996,
+          "correct": true,
+          "test_cost": -80.0,
+          "steps": 5,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -11.925,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 231.75,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 96.375,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -84.125,
+          "correct": false,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 170.15437499999996,
+          "correct": true,
+          "test_cost": -80.0,
+          "steps": 5,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 265.0,
+          "correct": true,
+          "test_cost": -20.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "MyopicPOMDP",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 231.75,
+          "correct": true,
+          "test_cost": -40.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -69.125,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 188.08749999999998,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -69.125,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 188.08749999999998,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -43.40375,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 246.75,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": 59.48124999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 59.48124999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -69.125,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 188.08749999999998,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -69.125,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -43.40375,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 3.0749999999999993,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 246.75,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 111.375,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": 59.48124999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 59.48124999999999,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -69.125,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -111.99374999999999,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 188.08749999999998,
+          "correct": true,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -69.125,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Expert",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 246.75,
+          "correct": true,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -480.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -112.625,
+          "correct": false,
+          "test_cost": -70.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -500.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 23.5,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -154.86249999999998,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -10.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -52.5,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -1000.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -99.88125,
+          "correct": false,
+          "test_cost": -60.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 280.0,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -52.5,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -480.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -112.625,
+          "correct": false,
+          "test_cost": -70.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -500.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 23.5,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -154.86249999999998,
+          "correct": false,
+          "test_cost": -75.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_APOE4",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -33.025,
+          "correct": false,
+          "test_cost": -25.0,
+          "steps": 3,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -10.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -52.5,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -1000.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -99.88125,
+          "correct": false,
+          "test_cost": -60.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 280.0,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 42,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -52.5,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": -65.5123125,
+          "correct": true,
+          "test_cost": -95.0,
+          "steps": 5,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -520.25,
+          "correct": false,
+          "test_cost": -70.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": -59.5,
+          "correct": false,
+          "test_cost": -50.0,
+          "steps": 2,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 1,
+        "result": {
+          "total_reward": -1000.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 2,
+        "result": {
+          "total_reward": 280.0,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 3,
+        "result": {
+          "total_reward": 300.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 4,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 5,
+        "result": {
+          "total_reward": -142.74374999999998,
+          "correct": false,
+          "test_cost": -105.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 5,
+        "repetition": 6,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": -65.5123125,
+          "correct": true,
+          "test_cost": -95.0,
+          "steps": 5,
+          "terminal_action": "A_Wait",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Test_CDR",
+            "A_Test_CDR",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "CN",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -520.25,
+          "correct": false,
+          "test_cost": -70.0,
+          "steps": 3,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "CN",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_CDR",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": -59.5,
+          "correct": false,
+          "test_cost": -50.0,
+          "steps": 2,
+          "terminal_action": "A_Wait",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -100.0,
+          "correct": false,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": 150.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "MCI",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 1,
+        "result": {
+          "total_reward": -1000.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Wait",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Wait"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 2,
+        "result": {
+          "total_reward": 280.0,
+          "correct": true,
+          "test_cost": -5.0,
+          "steps": 2,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_MMSE",
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 3,
+        "result": {
+          "total_reward": 300.0,
+          "correct": true,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_Dementia",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_Dementia"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 4,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 5,
+        "result": {
+          "total_reward": -142.74374999999998,
+          "correct": false,
+          "test_cost": -105.0,
+          "steps": 4,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Test_APOE4",
+            "A_Test_MMSE",
+            "A_Test_APOE4",
+            "A_Treat_MCI"
+          ]
+        }
+      },
+      {
+        "policy": "Random",
+        "seed": 123,
+        "horizon": 20,
+        "repetition": 6,
+        "result": {
+          "total_reward": -50.0,
+          "correct": false,
+          "test_cost": 0.0,
+          "steps": 1,
+          "terminal_action": "A_Treat_MCI",
+          "true_state": "Dementia",
+          "action_history": [
+            "A_Treat_MCI"
+          ]
+        }
+      }
+    ],
+    "fallback": [
+      {
+        "total_reward": -53.396830086889494,
+        "correct": true,
+        "test_cost": -100.0,
+        "steps": 21,
+        "terminal_action": "A_Wait",
+        "true_state": "CN",
+        "action_history": [
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Wait"
+        ]
+      },
+      {
+        "total_reward": -67.73626698323118,
+        "correct": false,
+        "test_cost": -100.0,
+        "steps": 21,
+        "terminal_action": "A_Wait",
+        "true_state": "MCI",
+        "action_history": [
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Wait"
+        ]
+      },
+      {
+        "total_reward": -422.6373301676876,
+        "correct": false,
+        "test_cost": -100.0,
+        "steps": 21,
+        "terminal_action": "A_Wait",
+        "true_state": "Dementia",
+        "action_history": [
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Test_MMSE",
+          "A_Wait"
+        ]
+      }
+    ],
+    "model": {
+      "actions": [
+        "A_Wait",
+        "A_Test_MMSE",
+        "A_Test_CDR",
+        "A_Test_APOE4",
+        "A_Treat_MCI",
+        "A_Treat_Dementia"
+      ],
+      "discount": 0.95,
+      "likelihoods": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.85,
+        0.13,
+        0.02,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.95,
+        0.04,
+        0.01,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6909773580612129,
+        0.2812606667425191,
+        0.027761975196268066,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.55,
+        0.35,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.7,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5549354344495514,
+        0.3529218647406435,
+        0.09214270080980522,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.45,
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05,
+        0.3,
+        0.65,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3386635603092238,
+        0.47506089166578425,
+        0.18627554802499208,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observations": [
+        "None",
+        "MMSE_Normal",
+        "MMSE_Sedang",
+        "MMSE_Rendah",
+        "CDR_0",
+        "CDR_0_5",
+        "CDR_1_plus",
+        "APOE4_Negatif",
+        "APOE4_Hetero",
+        "APOE4_Homo"
+      ],
+      "prior": [
+        0.385189,
+        0.417041,
+        0.19777
+      ],
+      "rewards": [
+        30.0,
+        -5.0,
+        -20.0,
+        -50.0,
+        -50.0,
+        -500.0,
+        -10.0,
+        -5.0,
+        -20.0,
+        -50.0,
+        150.0,
+        -100.0,
+        -1000.0,
+        -5.0,
+        -20.0,
+        -50.0,
+        -50.0,
+        300.0
+      ],
+      "states": [
+        "CN",
+        "MCI",
+        "Dementia"
+      ],
+      "transitions": [
+        0.929,
+        0.068,
+        0.003,
+        0.929,
+        0.068,
+        0.003,
+        0.929,
+        0.068,
+        0.003,
+        0.929,
+        0.068,
+        0.003,
+        0.929,
+        0.068,
+        0.003,
+        0.929,
+        0.068,
+        0.003,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.892,
+        0.108,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "posteriors": [
+      {
+        "action": "A_Test_MMSE",
+        "observation": "MMSE_Normal",
+        "belief": [
+          0.5317895066951907,
+          0.38290234014776625,
+          0.08530815315704302
+        ]
+      },
+      {
+        "action": "A_Test_MMSE",
+        "observation": "MMSE_Sedang",
+        "belief": [
+          0.15733423248050277,
+          0.47135965920615847,
+          0.3713061083133387
+        ]
+      },
+      {
+        "action": "A_Test_MMSE",
+        "observation": "MMSE_Rendah",
+        "belief": [
+          0.054069066966822385,
+          0.30083154414513286,
+          0.6450993888880449
+        ]
+      },
+      {
+        "action": "A_Test_CDR",
+        "observation": "CDR_0",
+        "belief": [
+          0.7526060630153548,
+          0.22038833776185754,
+          0.027005599222787596
+        ]
+      },
+      {
+        "action": "A_Test_CDR",
+        "observation": "CDR_0_5",
+        "belief": [
+          0.03908275834074834,
+          0.7610755132707403,
+          0.1998417283885114
+        ]
+      },
+      {
+        "action": "A_Test_CDR",
+        "observation": "CDR_1_plus",
+        "belief": [
+          0.019654445781928848,
+          0.10935415766509451,
+          0.8709913965529766
+        ]
+      },
+      {
+        "action": "A_Test_APOE4",
+        "observation": "APOE4_Negatif",
+        "belief": [
+          0.44886638092318704,
+          0.4011439183789022,
+          0.14998970069791082
+        ]
+      },
+      {
+        "action": "A_Test_APOE4",
+        "observation": "APOE4_Hetero",
+        "belief": [
+          0.28186263417368707,
+          0.3935605537087549,
+          0.32457681211755796
+        ]
+      },
+      {
+        "action": "A_Test_APOE4",
+        "observation": "APOE4_Homo",
+        "belief": [
+          0.10790023316080216,
+          0.39850837446369863,
+          0.49359139237549915
+        ]
+      }
+    ]
+  },
+  "source_sha256": "e50951528f572c3a3d5164c3359c962ee82e99d4f011a2ec74a5bf6b5fb32b2b"
+}

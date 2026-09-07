@@ -1,58 +1,90 @@
-# AnticipAD — POMDP Simulation for Alzheimer Staging
+# AnticipAD - POMDP Simulation for Alzheimer Staging
 
-Reproduction code for *"A POMDP-Based Framework for Healthcare Decision-Making to Mitigate Cognitive Decline in Alzheimer’s Disease"*
+Reproduction code for *"A POMDP-Based Framework for Healthcare Decision-Making to Mitigate Cognitive Decline in Alzheimer's Disease."*
 
-This is a **simulation benchmark**, not a validated clinical tool. All accuracy figures are in-sample (ADNI-derived simulator); external validation (NACC/OASIS) is future work.
+This is a **simulation benchmark**, not a validated clinical tool. Evaluation uses an ADNI-derived simulator with explicit observation and utility assumptions, not held-out patient outcomes. Management actions end an episode and do not modify progression, so the experiments do **not** establish mitigation of cognitive decline.
 
 ## Environment
 
-- **Julia** 1.11.3
-- **Packages** (pinned in `julia_alzheimer_pomdp/Project.toml` + `Manifest.toml`): POMDPs.jl, POMDPTools, SARSOP.jl, BasicPOMCP, ARDESPOT, Distributions, StatsBase, JSON
-- CPU only; no GPU. Full benchmark (10 seeds × 4 policies × 10k episodes) runs in < 10 min on one core.
+- **Julia** 1.11.3.
+- Packages are pinned in `julia_alzheimer_pomdp/Project.toml` and `Manifest.toml`: POMDPs.jl, POMDPTools, SARSOP.jl, BasicPOMCP, ARDESPOT, Distributions, StatsBase, and JSON.
+- CPU execution; no GPU is required. Solver runtime depends on configuration and hardware.
 
 ```bash
 cd julia_alzheimer_pomdp
 julia --project=. -e "using Pkg; Pkg.instantiate()"
 ```
 
-## Data
+## Data and Parameter Provenance
 
-Source: ADNI via the **ADNIMERGE2** R data package (v0.1.1, ATRI Biostatistics, built 2025-12-17; https://atri-biostats.github.io/ADNIMERGE2), accessed under ADNI's Data Use Agreement (https://adni.loni.usc.edu). Per ADNI terms, processed data are **not redistributed** here — obtain your own ADNI access and regenerate the analytic table with the preprocessing notebook (see below).
+Source: ADNI via the [ADNIMERGE2 R package](https://atri-biostats.github.io/ADNIMERGE2), accessed under ADNI's Data Use Agreement. Patient-level data are **not redistributed** here. Obtain authorized [ADNI access](https://adni.loni.usc.edu/) and use the extraction scripts and preprocessing notebook in `preprocessing/` with your own data.
 
-- Retained analytic table: 15,836 visit records / 3,777 unique RIDs (no imputation; listwise deletion of rows missing DX or MMSE → 12,464 rows for the prior/transition estimates).
-- Initial belief b₀ = [0.385, 0.417, 0.198] estimated on the 12,464 records (3,713 participants) with complete diagnosis + MMSE.
-- **Hybrid provenance (important):** the transition matrix, APOE4 likelihoods, and b₀ are ADNI-derived (transitions reproduce from `preprocessing/Pra_pemrosesan_Dataset_POMDP.ipynb`; APOE4 matches the CSV to 3 decimals). The **MMSE and CDR observation likelihoods and the reward function are hand-specified clinical models**, not extracted by frequency counting — raw ADNI MMSE/CDR are near-deterministic and would induce degenerate over-testing (see `test_raw_mmse.jl`). Code comments in the Python prototype mark this design intent.
+- The assembled table contains 15,836 visit records from 3,777 participants. Listwise exclusion of records missing diagnosis or MMSE leaves 12,464 records from 3,713 participants. No imputation is applied.
+- The initial belief is `[0.385, 0.417, 0.198]` in CN, MCI, Dementia order, estimated from retained **visit-level** frequencies. It is not an independently estimated patient-intake distribution.
+- The transition matrix, initial belief, and APOE4 likelihoods are ADNI-derived. The model additionally makes Dementia absorbing and suppresses MCI-to-CN reversion.
+- **MMSE/CDR likelihoods and utilities are hand-specified**, not direct frequency estimates. Diagnostic labels partly incorporate these assessments; manually specified likelihoods do not establish independent validity or remove the need for external evaluation.
+- The notebook sorts records by participant and date and counts consecutive diagnoses, without interval filtering or time rescaling. Transitions therefore describe a modeled visit step, **not calibrated six-month progression**. Irregular intervals, undated records, and duplicate-date records require further treatment for calendar-time analysis.
 
-## Core model
+### Why the Horizon Is 20
 
-`julia_alzheimer_pomdp/src/AlzheimerPOMDP.jl` — the 3-state POMDP (CN/MCI/Dementia), all policies (Random, Expert, MyopicPOMDP), solver factories, and the `run_episode` / belief-update framework. Every script `include()`s this file.
+The evaluation cap `H=20` was chosen from the maximum visit count per participant in the assembled dataset **before** listwise exclusion. The maximum is 19 after diagnosis/MMSE exclusion; the original cap is retained. One non-terminal test represents one modeled follow-up visit, not a same-day test bundle. Twenty epochs should not be converted into ten years.
 
-## Reproducing the paper
+If all 20 decisions are non-terminal tests, the evaluator appends a fallback `Wait`, so the recorded action count can reach 21. This cap is not SARSOP's planning horizon or a clinically optimized follow-up duration. Horizon sensitivity has not been established.
 
-| Paper element | Script | Output |
+The read-only PowerShell audit in `paper_v2/overleaf_submission/audit_visit_horizon.ps1` accepts an explicit `-Dataset` path. Its committed output contains aggregate counts and a dataset hash, not patient records.
+
+## Core Model
+
+`julia_alzheimer_pomdp/src/AlzheimerPOMDP.jl` remains the public entry point. Its implementation is now separated into `model/`, `policies/`, `solvers/`, `simulation/`, and `visualization/`. State, action, observation, transition, reward, and initial-belief definitions have dedicated files. Existing experiment imports and artifact paths remain compatible. See the [source layout and regression guide](julia_alzheimer_pomdp/src/README.md).
+
+This refactor preserves model parameters, planner behavior, evaluation semantics, and archived seed results. Run `julia --project=. test/runtests.jl` from `julia_alzheimer_pomdp/` to compare against a pre-refactor simulation fixture. The check covers 198 belief-grid decisions, 288 seeded episodes, model distributions, Bayesian updates, and horizon fallback behavior. It is not a new benchmark experiment. Legacy plotting labels now distinguish retained visit records, visit-step transitions, and intake-stage agreement.
+
+## Reproducing the Paper
+
+Run the Julia commands below from `julia_alzheimer_pomdp/` with `julia --project=. <script>`. Solver scripts can overwrite `model.pomdpx` and `policy.out`; preserve frozen artifacts before re-solving.
+
+| Element | Script | Output or evidence |
 |---|---|---|
-| Main benchmark (Tables: per-policy) | `solver_sarsop.jl`, `solver_myopic.jl`, `solver_expert.jl`, `solver_random.jl` → `combine_results.jl` | `results_*_100000.json` |
-| Multi-seed mean±std (Table VII) | `run_multiseed_benchmark.jl` | console |
-| **Per-seed values for significance tests** | `run_multiseed_perseed.jl` | `per_seed_results.json` |
-| **Paired Wilcoxon + bootstrap CI + Cliff's δ + Holm** | `stats_paired.jl` (run on `per_seed_results.json`; `stats_paired.py` is an equivalent Python reference) | console |
-| **Threshold-tuned Expert baseline** | `tune_expert.jl` | console |
-| SARSOP policy extraction (decision regions) | `extract_sarsop_policy.jl` | `sarsop_policy_grid.json` |
-| **Obs-model sensitivity: raw-MMSE re-solve** | `test_raw_mmse.jl` | console + `policy_rawmmse.out` |
-| **Cost-vs-discriminability decomposition (2×2)** | `test_mmse_costdecomp.jl` | console |
-| **Full raw-MMSE re-run benchmark** | `rerun_rawmmse_benchmark.jl` | console |
-| Reward / monotonicity sensitivity | `run_sensitivity_analysis.jl` | `sensitivity_analysis_results.json` |
-| Model validation (probs sum to 1) | `test_validation.jl` | console |
+| Individual 100,000-episode benchmarks | `solver_sarsop.jl`, `solver_myopic.jl`, `solver_expert.jl`, `solver_random.jl`, then `combine_results.jl` | `results_*_100000.json`, `combined_results_100000.json` |
+| Ten-seed benchmark used for revised Table II | `run_multiseed_perseed.jl` | `per_seed_results.json` |
+| Mean, sample SD, and macro-accuracy audit | `../paper_v2/overleaf_submission/audit_metrics.jl` | `camera_ready_metrics.json` beside the audit script |
+| Paired Wilcoxon, bootstrap interval, Cliff's delta, Holm correction | `stats_paired.jl` | Console; `stats_paired.py` is an optional reference implementation |
+| Threshold-tuned Expert baseline | `tune_expert.jl` | Console |
+| SARSOP belief-region extraction | `extract_sarsop_policy.jl` | `sarsop_policy_grid.json` |
+| Reward sensitivity cited in the revision | `sensitivity_analysis.jl` | `sensitivity_analysis_results.json`; 1,000 episodes, seed 42, five-decision cap |
+| CDR MCI-row sensitivity cited in the revision | `sensitivity_cdr_raw.jl` | Archived `sensitivity_cdr_output.txt`; 10,000 episodes, seed 42, 20-decision cap |
+| Additional sensitivity driver | `run_sensitivity_analysis.jl` | Separate protocol; do not conflate its output with the cited reward experiment |
+| Additional raw-MMSE checks | `test_raw_mmse.jl`, `test_mmse_costdecomp.jl`, `rerun_rawmmse_benchmark.jl` | Console and archived logs |
+| Model probability checks | `test_validation.jl` | Console |
 | Figures | `generate_paper_figures_v2.jl`, `generate_*_trajectory.jl` | `figures_paper/` |
 
-### Determinism
-Seeds `{42, 123, 456, 789, 1000, 2024, 314, 271, 100, 999}`; γ=0.95; horizon 20. The simulator is deterministic given a seed (MersenneTwister streams). SARSOP is solved once and the frozen `policy.out` (638 α-vectors) is reused across all seeds — it is **not** retrained per seed.
+The ten benchmark seeds are `{42, 123, 456, 789, 1000, 2024, 314, 271, 100, 999}`, with 10,000 episodes per policy per seed and discount `gamma=0.95`. The frozen SARSOP policy is reused across seeds, not retrained per seed. Reproduction also requires matching model, policy, package versions, and random-number use.
 
-## Key result and its scope
+## Audited Results and Interpretation
 
-Under the adopted (smoothed-MMSE) observation model, MyopicPOMDP matches SARSOP's reward with no offline training. This parity is **conditional**: under raw observed-ADNI MMSE the myopic planner over-tests (~10 visits) and accuracy falls to ~40%, while SARSOP stays at ~78% (`rerun_rawmmse_benchmark.jl`). MyopicPOMDP is therefore competitive at realistic operating points; SARSOP is the robust choice.
+All accuracy values below measure **terminal commitment agreement with the intake stage**. They do not measure agreement with the evolving stage at commitment. An initially MCI episode that progresses to Dementia and receives dementia management is counted as incorrect against intake, even if that commitment matches the current state.
 
-## Repository status
-- [x] Preprocessing notebook included (`preprocessing/Pra_pemrosesan_Dataset_POMDP.ipynb`) + R extraction scripts
-- [x] `Project.toml` / `Manifest.toml` committed (exact Julia env)
-- [x] `stats_paired.jl` (canonical, full-Julia) + `stats_paired.py` (reference) — both verified to reproduce the reported significance numbers
-- [ ] LICENSE intentionally omitted for now (repo defaults to all-rights-reserved until added)
+| Policy | Reward (utility points) | Episode-weighted accuracy (%) | Macro accuracy (%) | MCI agreement (%) | Dementia agreement (%) | Mean decisions |
+|---|---:|---:|---:|---:|---:|---:|
+| SARSOP | 68.7 +/- 1.5 | 78.3 +/- 0.4 | 76.6 +/- 0.5 | 81.2 +/- 0.6 | 68.2 +/- 1.3 | 2.50 |
+| MyopicPOMDP | 73.0 +/- 1.2 | 78.1 +/- 0.3 | 79.8 +/- 0.3 | 71.4 +/- 0.6 | 87.3 +/- 0.7 | 2.87 |
+| Expert | 44.7 +/- 1.9 | 71.1 +/- 0.4 | 72.1 +/- 0.5 | 61.3 +/- 0.5 | 75.1 +/- 1.0 | 3.34 |
+| Random | -134.9 +/- 4.4 | 33.4 +/- 0.5 | 33.4 +/- 0.6 | 33.3 +/- 0.8 | 33.3 +/- 1.1 | 2.01 |
+
+Values are means and sample standard deviations over ten seeds. Overall accuracy weights episodes; macro accuracy averages the three stage accuracies **within each seed** before aggregation. The two measures can rank policies differently. Reward uses the evolving pre-action state, whereas accuracy uses the intake stage. Testing expenditure sums undiscounted test costs; decision counts include the terminal action.
+
+SARSOP has higher MCI agreement and lower testing expenditure among informed policies, while MyopicPOMDP has higher Dementia agreement and aggregate reward. SARSOP was planned on a continuing model, while evaluation terminates at commitment. Consequently, these rewards are not a matched-objective optimality comparison. Neither solver universally dominates, and sensitivity experiments can reverse rankings. The single-seed stress tests do not establish general robustness, clinical utility, or joint MMSE/CDR validity.
+
+## Revised Manuscript
+
+The current conference revision is [`paper_v2/overleaf_submission/main_review.pdf`](paper_v2/overleaf_submission/main_review.pdf), with LaTeX source, figure assets, and reproducibility audits in the same directory. It is seven A4 pages. This local PDF is **not yet PDF eXpress-certified**.
+
+The revision corrects accuracy definitions, documents the dataset-based horizon and visit-time abstraction, clarifies model limitations, and improves figure layout. It does not introduce new benchmark runs. Older experiment reports remain historical records and may contain superseded interpretations; use this README and the revised manuscript for current claims.
+
+## Repository Status
+
+- Preprocessing notebook and R extraction scripts are included; restricted patient data are not.
+- `Project.toml` and `Manifest.toml` record the Julia environment.
+- Numerical and visit-count audits accompany the revised manuscript.
+- External validation, treatment-effect modeling, persistent genetic covariates, and decision-time evaluation remain future work.
+- A repository-wide license has not been added; no new redistribution rights are granted by this revision. Bundled IEEE template files retain their own notices.

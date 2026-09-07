@@ -1,0 +1,50 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{times}
+\definecolor{wait}{RGB}{135,219,175}
+\definecolor{mmse}{RGB}{250,221,112}
+\definecolor{cdr}{RGB}{132,193,229}
+\definecolor{apoe}{RGB}{197,157,209}
+\definecolor{mci}{RGB}{249,197,119}
+\definecolor{dem}{RGB}{243,147,136}
+\newcommand{\cell}[4]{%
+  \fill[#3] ({2.6+(#1-1)*0.94},{-#2*0.47})
+    rectangle ++(0.94,0.47);
+  \node[font=\fontsize{7.5}{9}\selectfont] at
+    ({3.07+(#1-1)*0.94},{-#2*0.47+0.235}) {#4};}
+\newcommand{\axes}[1]{%
+  \node[anchor=west,font=\bfseries\fontsize{10}{11}\selectfont] at (0,0.28) {#1};
+  \foreach \row/\name in {1/Random,2/Expert,3/MyopicPOMDP,4/SARSOP}{
+    \node[anchor=east,font=\fontsize{9}{10}\selectfont]
+      at (2.47,{-\row*0.47+0.235}) {\name};}
+  \foreach \x in {0,...,5}{\draw[gray!45] ({2.6+\x*0.94},0) -- ++(0,-1.88);}
+  \foreach \y in {0,...,4}{\draw[gray!45] (2.6,{-\y*0.47}) -- ++(4.7,0);}
+  \node[anchor=east,font=\fontsize{7.5}{9}\selectfont] at (2.47,-2.07) {Decision epoch (visits)};
+  \foreach \x in {1,...,5}{
+    \node[font=\fontsize{7.5}{9}\selectfont] at ({3.07+(\x-1)*0.94},-2.07) {\x};}
+}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm]
+% Action cells transcribed from the three submitted Figure 1 panels.
+\begin{scope}
+\cell{1}{1}{apoe}{APOE4}\cell{2}{1}{dem}{Dem}
+\cell{1}{2}{mmse}{MMSE}\cell{2}{2}{cdr}{CDR}\cell{3}{2}{wait}{Wait}
+\cell{1}{3}{cdr}{CDR}\cell{2}{3}{cdr}{CDR}\cell{3}{3}{wait}{Wait}
+\cell{1}{4}{cdr}{CDR}\cell{2}{4}{cdr}{CDR}\cell{3}{4}{wait}{Wait}
+\axes{(a) Intake stage: CN}
+\end{scope}
+\begin{scope}[yshift=-2.8cm]
+\cell{1}{1}{mci}{MCI}
+\cell{1}{2}{mmse}{MMSE}\cell{2}{2}{cdr}{CDR}\cell{3}{2}{apoe}{APOE4}\cell{4}{2}{mci}{MCI}
+\cell{1}{3}{cdr}{CDR}\cell{2}{3}{cdr}{CDR}\cell{3}{3}{mci}{MCI}
+\cell{1}{4}{cdr}{CDR}\cell{2}{4}{cdr}{CDR}\cell{3}{4}{mci}{MCI}
+\axes{(b) Intake stage: MCI}
+\end{scope}
+\begin{scope}[yshift=-5.6cm]
+\cell{1}{1}{apoe}{APOE4}\cell{2}{1}{apoe}{APOE4}\cell{3}{1}{mmse}{MMSE}\cell{4}{1}{mci}{MCI}
+\cell{1}{2}{mmse}{MMSE}\cell{2}{2}{cdr}{CDR}\cell{3}{2}{dem}{Dem}
+\cell{1}{3}{cdr}{CDR}\cell{2}{3}{cdr}{CDR}\cell{3}{3}{cdr}{CDR}\cell{4}{3}{dem}{Dem}
+\cell{1}{4}{cdr}{CDR}\cell{2}{4}{cdr}{CDR}\cell{3}{4}{cdr}{CDR}\cell{4}{4}{dem}{Dem}
+\axes{(c) Intake stage: Dementia}
+\end{scope}
+\end{tikzpicture}
+\end{document}
